@@ -1,0 +1,133 @@
+.nav-bar{
+    width: 100%;
+    
+    font-size: 14px;
+}
+
+.nav-padding{
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #848282
+}
+
+.nav-content{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    max-height: 60px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    /* margin-left: 10px; */
+    gap: 16px;
+}
+
+.logo-image{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    /* object-fit: contain; */
+    cursor: pointer;
+}
+
+.search-container{
+    position: relative;
+}
+
+.search-bar{
+
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* padding: 6px 16px; */
+    width: 400px;
+    font-size: 14px;
+    outline:none;
+    background: white;
+    height: 30px;
+    /* margin-left: 100px; */
+}
+.search-icon{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    color: gray;
+}
+
+
+.location-container {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+
+/* body{
+    display: grid;
+} */
+.sign-in {
+    background-color: red;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    flex-shrink: 0;
+    margin-left: 0px;
+}
+.sign-in:hover{
+    
+    height: 40px;
+    color: red;
+    background-color: white;
+}
+
+.bottom-nav-padding{
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #bdb9b9;
+}
+
+.bottom-nav-content{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.bottom-left-content {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    font-weight: 500;
+
+}
+.bottom-right-content {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    font-weight: 500;
+}
+
+.right-content:hover,
+.left-content:hover{
+    
+   
+    font-weight: 700;
+    cursor: pointer;
+    color: #ef4444;
+}
